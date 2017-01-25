@@ -26592,17 +26592,17 @@
 	      ),
 	      React.createElement(
 	        Link,
-	        { to: '/' },
+	        { to: '/', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	        'Get Weather'
 	      ),
 	      React.createElement(
 	        Link,
-	        { to: 'about' },
+	        { to: 'about', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	        'About'
 	      ),
 	      React.createElement(
 	        Link,
-	        { to: 'examples' },
+	        { to: 'examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	        'Examples'
 	      )
 	    );
